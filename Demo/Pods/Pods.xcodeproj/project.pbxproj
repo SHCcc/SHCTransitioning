@@ -3,17 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20D8969E1FA3088000A02E71 /* UIView+Extend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D8969C1FA3078400A02E71 /* UIView+Extend.swift */; };
 		363C59673B91E47FEEF4C68A6FF37AF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		588E9BF4E412534107BDF3055E8B80BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		72D6895A9B25027BC0D88F70B06FFFFC /* SHCTransitioning-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CEC6EE3577206A7D546AFE8967B1CDF /* SHCTransitioning-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74E17087339BBBBD6144C25A347ED009 /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EA1E60232BFA05817BC26ACB8E68BA /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		789C5277D0989BDE19C06B302AE909D9 /* Transitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825109A10B9F4DFA7548C700FF5CC637 /* Transitioning.swift */; };
 		953084309538935368EDF22015F51F61 /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BC86D40B890A7B0844F888209CA06F /* Pods-Demo-dummy.m */; };
-		A82207E421766606AE8E0B8E55DCFB0D /* ChooseBuyGoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A4B866B1BB77624AF471E1C525AA4E /* ChooseBuyGoodViewController.swift */; };
 		B41AD562709780CCDBE4EC62210CE627 /* SHCTransitioning-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF38DB89FCC4302EC96BF2C090DA7B0 /* SHCTransitioning-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -29,17 +29,17 @@
 
 /* Begin PBXFileReference section */
 		03EA1E60232BFA05817BC26ACB8E68BA /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
+		20D8969C1FA3078400A02E71 /* UIView+Extend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Extend.swift"; path = "SHCTransitioning/UIView+Extend.swift"; sourceTree = "<group>"; };
 		2CEC6EE3577206A7D546AFE8967B1CDF /* SHCTransitioning-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHCTransitioning-umbrella.h"; sourceTree = "<group>"; };
-		322419E99883B306EE7EC77959FCC8DF /* Pods-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
+		322419E99883B306EE7EC77959FCC8DF /* Pods-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
 		3CD5A30239C90F1B549B4AB9299ECF16 /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
 		3D653C9DA16200D75AD14323AA830C6B /* Pods-Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-resources.sh"; sourceTree = "<group>"; };
-		43A4B866B1BB77624AF471E1C525AA4E /* ChooseBuyGoodViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChooseBuyGoodViewController.swift; path = SHCTransitioning/ChooseBuyGoodViewController.swift; sourceTree = "<group>"; };
-		4CEA318463CCFF214FE39A98E07D1B74 /* SHCTransitioning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SHCTransitioning.framework; path = SHCTransitioning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		507788420D58E1F57072AB6762F54071 /* SHCTransitioning.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SHCTransitioning.modulemap; sourceTree = "<group>"; };
+		4CEA318463CCFF214FE39A98E07D1B74 /* SHCTransitioning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHCTransitioning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		507788420D58E1F57072AB6762F54071 /* SHCTransitioning.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SHCTransitioning.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		71940C1CEB7995DC34CFE54CAF1AEF88 /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		825109A10B9F4DFA7548C700FF5CC637 /* Transitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transitioning.swift; path = SHCTransitioning/Transitioning.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97B88639CD15539E08B40547BE9CA109 /* SHCTransitioning.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHCTransitioning.xcconfig; sourceTree = "<group>"; };
 		AD440770B9E9925C26B348E5B154AB2D /* SHCTransitioning-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHCTransitioning-prefix.pch"; sourceTree = "<group>"; };
 		C5BC86D40B890A7B0844F888209CA06F /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		DAB0701F8F25395B1ED46510ED4B9797 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		DD773ED0425706FA628E080133830938 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E68F8C86FB3267A3C87983DA9E269889 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC5007D063930313EE579944A47CC6C0 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Demo.framework; path = "Pods-Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5007D063930313EE579944A47CC6C0 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF38DB89FCC4302EC96BF2C090DA7B0 /* SHCTransitioning-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHCTransitioning-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,8 +75,8 @@
 		062FFAEDF82F21B17BB219C99CEB2582 /* SHCTransitioning */ = {
 			isa = PBXGroup;
 			children = (
-				43A4B866B1BB77624AF471E1C525AA4E /* ChooseBuyGoodViewController.swift */,
 				825109A10B9F4DFA7548C700FF5CC637 /* Transitioning.swift */,
+				20D8969C1FA3078400A02E71 /* UIView+Extend.swift */,
 				F79E656FD626D084E608BBAD4C4B2E18 /* Support Files */,
 			);
 			name = SHCTransitioning;
@@ -232,6 +232,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					924FB12C65FCF55E404C613930536A82 = {
+						LastSwiftMigration = 0900;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -264,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A82207E421766606AE8E0B8E55DCFB0D /* ChooseBuyGoodViewController.swift in Sources */,
+				20D8969E1FA3088000A02E71 /* UIView+Extend.swift in Sources */,
 				B41AD562709780CCDBE4EC62210CE627 /* SHCTransitioning-dummy.m in Sources */,
 				789C5277D0989BDE19C06B302AE909D9 /* Transitioning.swift in Sources */,
 			);
@@ -365,6 +370,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DAB0701F8F25395B1ED46510ED4B9797 /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -487,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC6A59B0ADA6CB2F51DAE6508E437829 /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

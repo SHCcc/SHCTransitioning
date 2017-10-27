@@ -7,7 +7,7 @@ s.summary      = '转场动画'
 s.description  = '提供一个swift4.0的缩放转场动画'
 s.homepage     = "https://github.com/SHCcc/SHCTransitioning"
 s.license      = 'MIT'
-s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '9.0'
 s.author             = { "SHCcc" => "578013836@qq.com" }
 s.source       = { :git => "https://github.com/SHCcc/SHCTransitioning.git", :tag => s.version.to_s }
 

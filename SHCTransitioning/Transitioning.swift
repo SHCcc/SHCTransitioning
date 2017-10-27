@@ -10,6 +10,8 @@ import UIKit
 
 class BuyGoodsTransitioning: NSObject, UIViewControllerAnimatedTransitioning {
   
+  var keyWindow: UIView? { get{ return UIApplication.shared.keyWindow } }
+  
   func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
     return 0.3
   }
@@ -28,9 +30,9 @@ class BuyGoodsTransitioning: NSObject, UIViewControllerAnimatedTransitioning {
     // 容器/视图栈
     let container = transitionContext.containerView
     let maskView = UIView()
-    maskView.backgroundColor = Color.black
+    maskView.backgroundColor = UIColor.black
     maskView.alpha = 0.3
-    maskView.frame = Macro.keyWindow?.frame ?? CGRect.zero
+    maskView.frame = keyWindow?.frame ?? CGRect.zero
     if isPresenting {
       maskView.y = 0
     }else {
@@ -65,3 +67,16 @@ class BuyGoodsTransitioning: NSObject, UIViewControllerAnimatedTransitioning {
     }
   }
 }
+
+/*
+// MARK: - 转场代理
+extension ChooseBuyGoodViewController: UIViewControllerTransitioningDelegate {
+  public func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    return BuyGoodsTransitioning()
+  }
+  
+  func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    return BuyGoodsTransitioning()
+  }
+}
+*/
