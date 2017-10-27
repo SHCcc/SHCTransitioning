@@ -1,0 +1,6 @@
+framework module SHCTransitioning {
+  umbrella header "SHCTransitioning-umbrella.h"
+
+  export *
+  module * { export * }
+}

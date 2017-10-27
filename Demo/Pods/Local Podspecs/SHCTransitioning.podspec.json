@@ -1,0 +1,26 @@
+{
+  "name": "SHCTransitioning",
+  "version": "0.0.1",
+  "summary": "转场动画",
+  "description": "提供一个swift4.0的缩放转场动画",
+  "homepage": "https://github.com/SHCcc/SHCTransitioning",
+  "license": "MIT",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "authors": {
+    "SHCcc": "578013836@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/SHCcc/SHCTransitioning.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "SHCTransitioning/*/**",
+    "SHCTransitioning/**"
+  ],
+  "requires_arc": true,
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.0"
+  }
+}

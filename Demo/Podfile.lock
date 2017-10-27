@@ -1,0 +1,16 @@
+PODS:
+  - SHCTransitioning (0.0.1)
+
+DEPENDENCIES:
+  - SHCTransitioning (from `../`)
+
+EXTERNAL SOURCES:
+  SHCTransitioning:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SHCTransitioning: 690ba41c889b262607d360258e9144b5ded0b25f
+
+PODFILE CHECKSUM: b1bbc0cade7328cd379334badb87c66dd5620c47
+
+COCOAPODS: 1.3.1
